@@ -3,7 +3,7 @@
 }
 body{
     background-color: #C8E6FF !important;
-    background-image: url(/img/background-mobileapps.png);
+    background-image: url("../img/background-mobileapps.png");
     background-repeat: no-repeat;
     background-position: -250px -100px;
 }
