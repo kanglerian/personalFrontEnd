@@ -2,13 +2,14 @@
     font-family: 'Open Sans', sans-serif;
 }
 body{
-    background-color: #C8E6FF !important;
-    background-image: url("../img/background-mobileapps.png");
-    background-repeat: no-repeat;
-    background-position: -250px -100px;
+    background-color: #FFFFFF !important;
 }
 .banner {
-    padding:40px 0px;
+    padding:50px 0px;
+    background-color: #C8E6FF !important;
+    background-image: url("../img/background-mobileapps.png");
+    background-position: -250px -200px;
+    background-repeat: no-repeat;
 }
 .navbar-nav{
     text-align: center;
@@ -22,12 +23,14 @@ body{
 }
 ul li {
     list-style: none;
+    margin-left: -25px;
 }
 .profile-container {
     background-color:#FFFFFF;
     text-align: center;
     padding: 30px 50px;
     border-radius: 25px;
+    margin-bottom: 50px;
     box-shadow: 0px 60px 80px rgba(60, 165, 255, 0.25);
 }
 .profile-picture {
@@ -60,11 +63,14 @@ ul li {
     background-color:#2e92eb;
 }
 .footer {
+    position: relative;
     background-color: #FFFFFF;
     border-radius: 40px 40px 0px 0px;
     padding-top:30px;
     padding-bottom:10px;
     text-align: center;
+    z-index: 99;
+    margin-top: -50px;
 }
 .footer-logo{
     margin-bottom:20px;
@@ -72,12 +78,18 @@ ul li {
 .footer-media li a {
     color: #4A4A4A;
     font-size: 25px;
+    margin-right: 10px;
 }
+
 @media (min-width: 1200px) {
-    body{
-        background-position: 600px -300px;
+    .banner{
+        background-position: 700px -200px;
     }
     .profile-container{
         box-shadow: 0px 60px 80px rgba(0, 111, 200, 0.05);
+    }
+    ul li {
+        text-align: left;
+        margin-left: 20px;
     }
  }
