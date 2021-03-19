@@ -20,7 +20,9 @@ body{
     margin-left: 20px;
     color: #133654!important;
 }
-
+ul li {
+    list-style: none;
+}
 .profile-container {
     background-color:#FFFFFF;
     text-align: center;
@@ -42,7 +44,7 @@ body{
     color: #9b9b9b;
     margin-top:-10px;
 }
-.profile-bio {
+.profile-bio, .footer-address {
     color: #4A4A4A;
     font-size:17px;
 }
@@ -60,8 +62,15 @@ body{
 .footer {
     background-color: #FFFFFF;
     border-radius: 40px 40px 0px 0px;
-    height: 100px;
-    margin-top:-100px;
+    padding-top:30px;
+    padding-bottom:10px;
+}
+.footer-logo{
+    margin-bottom:20px;
+}
+.footer-media li a {
+    color: #4A4A4A;
+    font-size: 25px;
 }
 @media (min-width: 1200px) {
     body{
